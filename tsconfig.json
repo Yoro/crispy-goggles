@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./tempsbuild/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react"
+    },
+    "files": [
+        "./typings/index.d.ts",
+        "./node_modules/events/events.js",
+        "./src/index.tsx"
+    ],
+    "filesGlob": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx",
+        "!node_modules/**"
+    ]
+}
