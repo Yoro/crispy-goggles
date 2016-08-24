@@ -1,0 +1,39 @@
+{
+  "name": "crispy-goggles",
+  "version": "1.0.0",
+  "description": "A test project",
+  "main": "app.js",
+  "dependencies": {
+    "fbemitter": "^2.0.2",
+    "flux": "^2.1.1",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "victory": "^0.9.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "events": "^1.1.1",
+    "exports-loader": "^0.6.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "imports-loader": "^0.6.5",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "typings": "^1.3.1",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoro/crispy-goggles.git"
+  },
+  "author": "Yoro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yoro/crispy-goggles/issues"
+  },
+  "homepage": "https://github.com/Yoro/crispy-goggles#readme"
+}
